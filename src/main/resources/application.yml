@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: test
+  data:
+    mongodb:
+      uri:mongodb://127.0.0.1:27017/test?retryWrites=false
+server:
+  servlet:
+    context-path: /test
+  port: 8081
