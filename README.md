@@ -1,5 +1,7 @@
 # spring-boot-mongodb
     spring-data-mongodb project
+# 需要环境
+    jdk 21 
 # 包含功能接口
  ## 新建/更新用户
  ## 按名称查询用户
