@@ -37,7 +37,7 @@ public class UserController {
     /**
      * 新增或更新用户
      */
-    @PostMapping("/creatUser")
+    @PostMapping("/createUser")
     public CommonResult createUser(@RequestBody User user) {
         return CommonResult.success(userService.saveUser(user));
     }
